@@ -1,0 +1,42 @@
+<!-- Create a simple webpage with a card similar to question number 2, The card must be semi-transparent as default and on hovering the card must be displayed clearly. Use CSS opacity to achive this output. -->
+
+<!-- Solution. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+     .box{
+            background-color: #ffc0cb;
+            width: 250px;
+            height: 270px;
+            text-align: center;
+            margin: 150px 500px  ;
+            border-radius: 20px;
+            opacity: 0.55;
+        }
+        img{
+            height: 180px;
+            width: 220px;
+            margin: 8px 6px 0px 6px;
+            border-radius: 20px;
+           
+        }
+        .box:hover{
+            opacity: 1;
+        }
+        p{
+            color: blue;
+        }
+    </style>
+</head>
+<body>  
+     <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr4LqvIZPFrs8EIup4CTqn1gdmQ98-_bJu9w&usqp=CAU" alt="">
+ <p>About Image: This is the image of a mountain.</p>
+    </div>
+</body>
+</html>
